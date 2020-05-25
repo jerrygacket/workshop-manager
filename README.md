@@ -1,5 +1,6 @@
 Менеджер задач для производства. Интеграция с 1С и канбаном (kanboard.net) 
-git clone https://github.com/jerrygacket/workshop-manager.git
+
+    git clone https://github.com/jerrygacket/workshop-manager.git
     cd workshop-manager
     composer install
     -- make config/db_local.php with your db config
