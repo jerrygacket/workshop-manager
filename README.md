@@ -4,6 +4,8 @@
     cd workshop-manager
     composer install
     -- make config/db_local.php with your db config
+    -- setup login/password/db/server in models/YellowERPClient.php
+    -- setup login/password/server in models/KanboardClient.php
     php yii migrate
     -- setup virtual host with server_root = project_dir/web
     -- go to http://virtualhostname and you see a login form if everything is ok
